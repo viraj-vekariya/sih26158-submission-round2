@@ -1,0 +1,13 @@
+Source video: "Toolse castle in Estonia (Fall 2021)" by Sillerkiil
+Wikimedia Commons, CC BY-SA 4.0
+https://commons.wikimedia.org/wiki/File:Toolse_castle_in_Estonia_(Fall_2021).webm
+
+Trimmed to the 60s close-orbit segment (48s-108s of the original) before processing.
+
+3D model built with:
+- VGGT (Visual Geometry Grounded Transformer), Meta, CVPR 2025 Best Paper
+  github.com/facebookresearch/vggt -- camera pose + depth estimation
+- Brush (Gaussian Splatting), Apache 2.0
+  github.com/ArthurBrussee/brush -- photo-real 3D training
+
+Both run entirely locally (Apple M4, no NVIDIA GPU, no cloud).
